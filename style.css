@@ -1,0 +1,77 @@
+body {
+  background: #12132e;
+}
+.carousel img {
+  height: 400px;
+  width: auto;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+header {
+  background-color: #01021b;
+  padding: 15px 0 15px;
+}
+
+header img {
+  width: 50px;
+  margin-left: 15px;
+}
+
+header img:hover {
+  border-style: solid;
+  border-color: white;
+  transform: scale(1.2);
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+section {
+  animation: glow1 1s ease-in-out infinite alternate;
+  box-shadow: 5px 5px 50px 10px #ff6100;
+  align-self: flex;
+  margin: 5vw;
+  max-width: 1260px;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.img-fluid {
+  width: 700px;
+  margin-bottom: 250px;
+  margin-left: 170px;
+}
+
+.img-thumbnail {
+  max-height: 200px;
+  margin-left: 25px;
+  border-radius: 100px;
+  border: 10px solid #12132e;
+}
+
+.rodape {
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+.box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.box img {
+  width: 30px;
+  height: 30px;
+}
